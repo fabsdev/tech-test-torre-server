@@ -1,0 +1,27 @@
+{
+  "name": "tech-test-torre-server",
+  "version": "1.0.0",
+  "description": "Technical test to get the position as Junior Software Developer",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabsdev/tech-test-torre-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabsdev/tech-test-torre-server/issues"
+  },
+  "homepage": "https://github.com/fabsdev/tech-test-torre-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
