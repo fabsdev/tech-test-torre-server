@@ -8,6 +8,7 @@ const getUser = async (req, res) => {
       .then((promise) => promise.json())
       .then((data) => {
         user = {
+          subjectId: data.person.subjectId,
           name: data.person.name,
           picture: data.person.picture,
           profession: data.person.professionalHeadline,
